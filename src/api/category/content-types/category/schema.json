@@ -4,21 +4,22 @@
   "info": {
     "singularName": "category",
     "pluralName": "categories",
-    "displayName": "category"
+    "displayName": "category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "herbalsuplement": {
+    "name": {
       "type": "string"
     },
-    "health": {
-      "type": "string"
-    },
-    "bodycare": {
-      "type": "string"
+    "products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "inversedBy": "categories"
     }
   }
 }
