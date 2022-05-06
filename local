@@ -1,1 +1,1 @@
-postgres://quhasauuvwisvb:e71d1930aec9dd0e5a9f6a97699ad5e8a71cc0d82e02adeddad3cbe84b125056@ec2-3-223-213-207.compute-1.amazonaws.com:5432/dcuge5n5m1ap1o
+DATABASE_URL=postgres://lgobbmsdptkcic:f7d584c8a2f3cf3063b6ef332590ea0ad7f15e9d937616c2e399c1d23a95b02a@ec2-44-194-4-127.compute-1.amazonaws.com:5432/d42r60mmh161fn
